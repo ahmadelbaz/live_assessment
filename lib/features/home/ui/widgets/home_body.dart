@@ -19,7 +19,7 @@ class HomeBody extends StatelessWidget {
           style: Theme.of(context).textTheme.bodyLarge,
           textAlign: TextAlign.center,
         ),
-        const SizedBox(height: AppSizes.s20),
+        const SizedBox(height: AppSizes.s50),
         ElevatedButton(
           onPressed: () {
             context.pushNamed(Routes.firstPagination);

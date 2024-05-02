@@ -15,7 +15,7 @@ class PaginationBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       height: pageFooter
-          ? MediaQuery.of(context).size.height * 0.75
+          ? MediaQuery.of(context).size.height * AppSizes.s0_75
           : MediaQuery.of(context).size.height,
       child: Obx(
         () => ListView.builder(

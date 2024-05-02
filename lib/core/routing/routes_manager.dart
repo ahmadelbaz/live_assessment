@@ -10,7 +10,7 @@ class RoutesManager {
   Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case Routes.home:
-        return MaterialPageRoute(builder: (_) => const HomeScreen());
+        return MaterialPageRoute(builder: (_) => HomeScreen());
       case Routes.firstPagination:
         return MaterialPageRoute(builder: (_) => FirstPagenationScreen());
       case Routes.secondPagination:
