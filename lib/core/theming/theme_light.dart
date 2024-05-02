@@ -55,6 +55,7 @@ class ThemeLight {
             fontSize: FontSize.s16,
             color: ColorManager.white,
           ),
+          minimumSize: const Size(AppSizes.s200, AppSizes.s50),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(AppSizes.s12),
           ),

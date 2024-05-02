@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:live_assesment/core/theming/string_manager.dart';
+import 'package:live_assesment/core/theming/value_manager.dart';
+import 'package:live_assesment/features/home/ui/widgets/home_body.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -10,19 +12,10 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text(StringManager.homeScreen),
       ),
-      body: Center(
+      body: const Center(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(StringManager.homeScreenTitle,
-                  style: Theme.of(context).textTheme.bodyLarge),
-              ElevatedButton(
-                  onPressed: () {},
-                  child: const Text(StringManager.firstPaginationType)),
-            ],
-          ),
+          padding: EdgeInsets.all(AppSizes.s8),
+          child: HomeBody(),
         ),
       ),
     );
