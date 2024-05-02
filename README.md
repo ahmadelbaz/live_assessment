@@ -1,4 +1,4 @@
-# live_assesment
+# Pagination
 
 ## ℹ️: Overview
 
@@ -6,11 +6,11 @@ This Flutter application showcases three different types of pagination while fet
 
 ## 📹: Showcases
 
-### First type : Infinite scrolling [Without removal of old data].
+### First type: Infinite scrolling [With data caching to prevent redundant loading, Without removal of old data].
 
 <img src="https://github.com/ahmadelbaz/live_assessment/assets/31745846/2aacb31c-6afd-468e-af89-611f08d8051c" width="250" />
 
-### Second type: Infinite scrolling [with removal of old data] -> Displays only 20 products at a time.
+### Second type: Infinite scrolling [with removal of old data] -> Displays only 20 products at a time. (No data cashing here).
 
 <img src="https://github.com/ahmadelbaz/live_assessment/assets/31745846/da4bf84f-f988-47fc-bbda-f0936c5268f8" width="250" />
 
