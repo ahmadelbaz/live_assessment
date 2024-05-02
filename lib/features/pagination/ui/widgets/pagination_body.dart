@@ -31,7 +31,7 @@ class PaginationBody extends StatelessWidget {
                 padding: EdgeInsets.all(AppSizes.s10),
                 child: Center(
                   child: SpinKitChasingDots(
-                    color: ColorManager.primary,
+                    color: ColorManager.accent,
                     size: AppSizes.s40,
                   ),
                 ),
@@ -47,7 +47,7 @@ class PaginationBody extends StatelessWidget {
                 child: Container(
                   padding: const EdgeInsets.all(AppSizes.s10),
                   decoration: BoxDecoration(
-                    border: Border.all(color: ColorManager.grey),
+                    border: Border.all(color: Colors.transparent),
                     borderRadius: const BorderRadius.all(
                       Radius.circular(AppSizes.s20),
                     ),
