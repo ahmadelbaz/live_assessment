@@ -1,10 +1,10 @@
 # Pagination
 
-## ℹ️: Overview
+## 📔 Overview
 
 This Flutter application showcases three different types of pagination while fetching some products from an API
 
-## 📹: Showcases
+## 📹 Showcases
 
 ### First type: Infinite scrolling [With data caching to prevent redundant loading, Without removal of old data].
 
@@ -23,9 +23,9 @@ This Flutter application showcases three different types of pagination while fet
 
 <img src="https://github.com/ahmadelbaz/live_assessment/assets/31745846/c2a7dbcd-f15e-45e2-af04-61ec0426ad28" width="250" />
 
-## 📖: How to Use
+## 📖 How to Use
 
-You can try the Android version : [Click to download apk file]()
+You can try the Android version [APK] 📱 : [Click to download apk file](https://www.dropbox.com/scl/fi/qpthxdmsypdtuh6afgk5m/pagination_assessment.apk?rlkey=edf5b1g2hpwpceep6qpvhwiwn&st=m5vu97xv&dl=1)
 
 To get and run the code :
 
@@ -45,38 +45,38 @@ Go to project root and execute the following command in console to get the requi
 flutter pub get 
 ```
 
-## ⭐: Features
+## ⭐ Features
 
 * Dynamic Data Fetching.
 * Showcases three different types of pagination (Some are still incomplete).
-* Cashing data (Not in all types).
+* Data caching (Not implemented in all types).
 * Dark/Light themes.
-* State management with Getx.
-* Fetching data from api using Dio.
+* State management with GetX.
+* Fetching data from API using Dio.
 * Loading animation with flutter_spinkit.
 
-### 🌠: Up-Coming Features:
+### 🌠 Up-Coming Features:
 
 * Complete all pagination types.
-* Cashing all data and handle it in a better way.
-* Apply responsiveness efficiently.
+* Implement data caching universally and handle it in a better way.
+* Enhance responsiveness.
 * Add shimmer effect for images.
-* Store user preferred theme in local storage.
-* Some improvement in UI.
-* Apply more tests and CI/CD.
-* Add support for Internationalizing.
+* Store user-preferred theme in local storage.
+* UI enhancements.
+* More extensive testing and CI/CD integration.
+* Support Internationalization.
 * Add Splash screen.
-* Maybe adding Onboarding screen.
+* Consider adding an Onboarding screen.
 
-### 📚: Libraries & Tools Used
+### 📚 Libraries & Tools Used
 
 * dio
 * get
 * flutter_spinkit
 * path_provider
 
-## 💻: System Design [We draw this using Miro app]
+## 💻 System Design [We draw this using Miro app]
 
-![image](https://github.com/ahmadelbaz/live_assessment/assets/31745846/085ae7ba-5611-4a94-bdd5-6f6d07b18a16)
+<img src="https://github.com/ahmadelbaz/live_assessment/assets/31745846/085ae7ba-5611-4a94-bdd5-6f6d07b18a16" width="250" />
 
 
