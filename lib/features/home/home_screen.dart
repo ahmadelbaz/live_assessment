@@ -10,8 +10,20 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text(StringManager.homeScreen),
       ),
-      body: const Center(
-        child: Text(StringManager.homeScreen),
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(StringManager.homeScreenTitle,
+                  style: Theme.of(context).textTheme.bodyLarge),
+              ElevatedButton(
+                  onPressed: () {},
+                  child: const Text(StringManager.firstPaginationType)),
+            ],
+          ),
+        ),
       ),
     );
   }
