@@ -18,7 +18,8 @@ class DioService {
     );
   }
 
-  Future<Response> get(String path) async {
+  Future<dynamic> get(String path) async {
+    print("path : $path");
     try {
       Response response = await _dio.get(path);
       return response.data;
