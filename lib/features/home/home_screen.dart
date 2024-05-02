@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:live_assesment/core/theming/string_manager.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -6,9 +7,11 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text(StringManager.homeScreen),
+      ),
       body: const Center(
-        child: Text('HomeScreen'),
+        child: Text(StringManager.homeScreen),
       ),
     );
   }

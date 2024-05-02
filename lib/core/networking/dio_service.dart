@@ -10,12 +10,10 @@ class DioService {
 
   _configureDio() {
     _dio.options = BaseOptions(
-        baseUrl: AppConsts.apiKey,
-        connectTimeout: const Duration(seconds: 30),
-        receiveTimeout: const Duration(seconds: 30),
-        headers: {
-          "X-Auth-Token": AppConsts.token,
-        });
+      baseUrl: AppConsts.apiKey,
+      connectTimeout: const Duration(seconds: 30),
+      receiveTimeout: const Duration(seconds: 30),
+    );
   }
 
   Future<Response> get(String path) async {
