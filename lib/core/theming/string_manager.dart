@@ -6,4 +6,5 @@ class StringManager {
       'We will try to implement different types of pagination';
   static const String firstPaginationType = 'First Pagination Type';
   static const String secondPaginationType = 'Second Pagination Type';
+  static const String thirdPaginationType = 'Third Pagination Type';
 }

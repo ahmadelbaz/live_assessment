@@ -33,6 +33,13 @@ class HomeBody extends StatelessWidget {
           },
           child: const Text(StringManager.secondPaginationType),
         ),
+        const SizedBox(height: AppSizes.s12),
+        ElevatedButton(
+          onPressed: () {
+            context.pushNamed(Routes.thirdPagination);
+          },
+          child: const Text(StringManager.thirdPaginationType),
+        ),
       ],
     );
   }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:live_assesment/features/pagination/controller/first_pagination_controller.dart';
-import 'package:live_assesment/features/pagination/ui/pagination_body.dart';
+import 'package:live_assesment/features/pagination/ui/widgets/pagination_body.dart';
 
 class FirstPagenationScreen extends StatelessWidget {
   final FirstPaginationController productsController =

@@ -7,12 +7,16 @@ import 'package:live_assesment/core/theming/value_manager.dart';
 /// Same Body UI for both first and second pagination with different controllers
 class PaginationBody extends StatelessWidget {
   final dynamic productsController;
-  const PaginationBody({required this.productsController, super.key});
+  final bool pageFooter;
+  const PaginationBody(
+      {this.pageFooter = false, required this.productsController, super.key});
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: MediaQuery.of(context).size.height,
+      height: pageFooter
+          ? MediaQuery.of(context).size.height * 0.75
+          : MediaQuery.of(context).size.height,
       child: Obx(
         () => ListView.builder(
           physics: const AlwaysScrollableScrollPhysics(),

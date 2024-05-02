@@ -62,6 +62,16 @@ class ThemeLight {
         ),
       ),
 
+      textButtonTheme: TextButtonThemeData(
+        style: TextButton.styleFrom(
+          backgroundColor: ColorManager.darkPrimary,
+          foregroundColor: ColorManager.white,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(AppSizes.s12),
+          ),
+        ),
+      ),
+
       // Text Theme
       textTheme: TextTheme(
         bodyLarge: getSemiBoldTextStyle(
