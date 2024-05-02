@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:live_assesment/core/routing/routes.dart';
+import 'package:live_assesment/core/theming/string_manager.dart';
 import 'package:live_assesment/features/home/home_screen.dart';
 
 class RoutesManager {
@@ -11,7 +12,7 @@ class RoutesManager {
         return MaterialPageRoute(
           builder: (_) => const Scaffold(
             body: Center(
-              child: Text('No routes found'),
+              child: Text(StringManager.noRoutesFound),
             ),
           ),
         );

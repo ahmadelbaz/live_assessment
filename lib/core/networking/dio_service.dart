@@ -11,8 +11,10 @@ class DioService {
   _configureDio() {
     _dio.options = BaseOptions(
       baseUrl: AppConsts.apiKey,
-      connectTimeout: const Duration(seconds: 30),
-      receiveTimeout: const Duration(seconds: 30),
+      connectTimeout:
+          const Duration(seconds: AppConsts.networkingTimeOutDuration),
+      receiveTimeout:
+          const Duration(seconds: AppConsts.networkingTimeOutDuration),
     );
   }
 
