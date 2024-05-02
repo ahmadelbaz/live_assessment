@@ -30,21 +30,21 @@ class ThemeLight {
 
       // App bar theme
       appBarTheme: AppBarTheme(
-        backgroundColor: ColorManager.primary,
-        centerTitle: true,
-        elevation: AppSizes.s4,
-        shadowColor: ColorManager.lightPrimary,
-        shape: const RoundedRectangleBorder(
-          borderRadius: BorderRadius.only(
-            bottomLeft: Radius.circular(AppSizes.s25),
-            bottomRight: Radius.circular(AppSizes.s25),
+          backgroundColor: ColorManager.primary,
+          centerTitle: true,
+          elevation: AppSizes.s4,
+          shadowColor: ColorManager.lightPrimary,
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(AppSizes.s25),
+              bottomRight: Radius.circular(AppSizes.s25),
+            ),
           ),
-        ),
-        titleTextStyle: getRegularTextStyle(
-          fontSize: FontSize.s16,
-          color: ColorManager.white,
-        ),
-      ),
+          titleTextStyle: getRegularTextStyle(
+            fontSize: FontSize.s16,
+            color: ColorManager.white,
+          ),
+          iconTheme: const IconThemeData(color: ColorManager.white)),
 
       // Elevated Button Theme
       elevatedButtonTheme: ElevatedButtonThemeData(

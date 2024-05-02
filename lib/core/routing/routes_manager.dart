@@ -3,6 +3,7 @@ import 'package:live_assesment/core/routing/routes.dart';
 import 'package:live_assesment/core/theming/string_manager.dart';
 import 'package:live_assesment/features/home/home_screen.dart';
 import 'package:live_assesment/features/pagination/first_pagination_screen.dart';
+import 'package:live_assesment/features/pagination/second_pagination_screen.dart';
 
 class RoutesManager {
   Route<dynamic> generateRoute(RouteSettings settings) {
@@ -11,6 +12,8 @@ class RoutesManager {
         return MaterialPageRoute(builder: (_) => const HomeScreen());
       case Routes.firstPagination:
         return MaterialPageRoute(builder: (_) => FirstPagenationScreen());
+      case Routes.secondPagination:
+        return MaterialPageRoute(builder: (_) => SecondPagenationScreen());
       default:
         return MaterialPageRoute(
           builder: (_) => const Scaffold(

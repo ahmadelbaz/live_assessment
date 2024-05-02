@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:live_assesment/features/pagination/controller/first_pagination_controller.dart';
+import 'package:live_assesment/features/pagination/controller/second_pagination_controller.dart';
 import 'package:live_assesment/features/pagination/ui/pagination_body.dart';
 
-class FirstPagenationScreen extends StatelessWidget {
-  final FirstPaginationController productsController =
-      Get.put(FirstPaginationController());
-  FirstPagenationScreen({super.key});
+class SecondPagenationScreen extends StatelessWidget {
+  final SecondPaginationController productsController =
+      Get.put(SecondPaginationController());
+  SecondPagenationScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

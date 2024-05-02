@@ -28,7 +28,9 @@ class HomeBody extends StatelessWidget {
         ),
         const SizedBox(height: AppSizes.s12),
         ElevatedButton(
-          onPressed: () {},
+          onPressed: () {
+            context.pushNamed(Routes.secondPagination);
+          },
           child: const Text(StringManager.secondPaginationType),
         ),
       ],
